@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Trends Weekly — June 12, 2026</title>
+  <script>
+    (function scoutTheme() {
+      var stored = localStorage.getItem("scout-theme") || localStorage.getItem("theme");
+      var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var theme = stored || (prefersDark ? "dark" : "light");
+      document.documentElement.setAttribute("data-scout-theme", theme);
+    })();
+  </script>
+  <style>
+    :root {
+      --cp-bg: #fbf7f2;
+      --cp-surface: #fffaf5;
+      --cp-surface-muted: #f4ece4;
+      --cp-text: #24191b;
+      --cp-text-muted: #6e5b5f;
+      --cp-border: #e6d7cf;
+      --cp-accent: #9f1239;
+      --cp-accent-soft: #f8dce5;
+      --cp-accent-strong: #7f0d2d;
+      --cp-link: #9f1239;
+      --cp-shadow: rgba(36, 25, 27, 0.08);
+    }
+
+    :root[data-scout-theme="dark"] {
+      --cp-bg: #171314;
+      --cp-surface: #211b1d;
+      --cp-surface-muted: #2c2427;
+      --cp-text: #f7efeb;
+      --cp-text-muted: #cbbbc0;
+      --cp-border: #403236;
+      --cp-accent: #fb7185;
+      --cp-accent-soft: #3b1d27;
+      --cp-accent-strong: #fecdd3;
+      --cp-link: #fb7185;
+      --cp-shadow: rgba(0, 0, 0, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--cp-bg);
+      color: var(--cp-text);
+      font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.58;
+    }
+
+    a { color: var(--cp-link); text-decoration-thickness: 0.08em; text-underline-offset: 0.18em; }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 48px;
+    }
+
+    .masthead {
+      background: var(--cp-surface);
+      border: 1px solid var(--cp-border);
+      border-radius: 28px;
+      padding: clamp(28px, 5vw, 56px);
+      box-shadow: 0 18px 48px var(--cp-shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .masthead::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 8px;
+      background: var(--cp-accent);
+    }
+
+    .eyebrow, .badge {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      border: 1px solid var(--cp-border);
+      border-radius: 999px;
+      background: var(--cp-accent-soft);
+      color: var(--cp-accent-strong);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 5px 11px;
+    }
+
+    h1 {
+      max-width: 860px;
+      margin: 18px 0 14px;
+      font-size: clamp(2.3rem, 6vw, 5rem);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+    }
+
+    h2 {
+      margin: 44px 0 18px;
+      font-size: clamp(1.6rem, 3vw, 2.35rem);
+      line-height: 1.05;
+      letter-spacing: -0.035em;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: clamp(1.2rem, 2vw, 1.55rem);
+      line-height: 1.2;
+      letter-spacing: -0.025em;
+    }
+
+    .dek {
+      max-width: 780px;
+      margin: 0;
+      color: var(--cp-text-muted);
+      font-size: clamp(1.05rem, 2vw, 1.28rem);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+      color: var(--cp-text-muted);
+      font-size: 0.95rem;
+    }
+
+    .meta span {
+      border: 1px solid var(--cp-border);
+      background: var(--cp-surface-muted);
+      border-radius: 999px;
+      padding: 7px 12px;
+    }
+
+    .opening, .panel {
+      background: var(--cp-surface);
+      border: 1px solid var(--cp-border);
+      border-radius: 22px;
+      padding: clamp(22px, 3vw, 32px);
+      box-shadow: 0 12px 32px var(--cp-shadow);
+    }
+
+    .opening {
+      margin-top: 24px;
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--cp-surface);
+      border: 1px solid var(--cp-border);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 10px 26px var(--cp-shadow);
+    }
+
+    .card-head {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .source {
+      color: var(--cp-text-muted);
+      font-size: 0.92rem;
+      margin-top: 6px;
+    }
+
+    .summary {
+      margin: 14px 0 16px;
+      color: var(--cp-text);
+    }
+
+    .takeaways {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 9px;
+    }
+
+    .takeaways li {
+      border-left: 3px solid var(--cp-accent);
+      background: var(--cp-surface-muted);
+      border-radius: 12px;
+      padding: 10px 12px;
+      color: var(--cp-text);
+    }
+
+    .panel {
+      margin-top: 18px;
+    }
+
+    .panel ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    .panel li + li { margin-top: 8px; }
+
+    footer {
+      margin-top: 26px;
+      color: var(--cp-text-muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 820px) {
+      .page { width: min(100% - 22px, 1120px); padding-top: 18px; }
+      .masthead, .opening, .panel, .card { border-radius: 18px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="eyebrow">Retail Trends Weekly</div>
+      <h1>Curated Intelligence From Across the Retail Ecosystem</h1>
+      <p class="dek">This week's signal: value is no longer a campaign theme; it is becoming the operating model. Retailers are pairing sharper price trust with AI-enabled labor, new social commerce surfaces, and more resilient supply chains.</p>
+      <div class="meta">
+        <span>Issue date: June 12, 2026</span>
+        <span>Coverage: Grocery, QSR, Retail Media, AI, Supply Chain</span>
+        <span>Curated for retail operators and growth leaders</span>
+      </div>
+    </header>
+
+    <section class="opening" aria-labelledby="opening-note">
+      <h2 id="opening-note">Opening Note</h2>
+      <p>Retailers are facing a customer who expects proof of value every trip, not occasional promotions. Inflation pressure, GLP-1-driven wellness shifts, and high-friction supply chains are forcing merchants, marketers, and operators to tighten the connection between price, experience, and execution.</p>
+      <p>At the same time, AI is moving from boardroom roadmap to front-line training, visual discovery, drive-thru operations, and campaign measurement. The retailers that win this cycle will use technology to remove friction while keeping the customer promise simple: fair prices, fresher products, faster service, and less effort.</p>
+    </section>
+
+    <section aria-labelledby="curated-articles">
+      <h2 id="curated-articles">Curated Articles With Summaries &amp; Retailer Takeaways</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Grocery/CPG</span>
+            <h3><a href="https://www.grocerydive.com/news/grocery-prices-inflation-supermarkets-food-retail/822563/">Who will win the grocery pricing war?</a></h3>
+            <div class="source">Grocery Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Analysts say shoppers now expect grocers to continually demonstrate that they are holding down food costs. Grocery Dive notes food-at-home inflation ran at a 2.7% annual rate in May while overall inflation reached 4.2%.</p>
+          <ul class="takeaways">
+            <li><strong>Enterprise grocers:</strong> make value architecture visible by aisle, not just in circulars; price trust is becoming a permanent loyalty driver.</li>
+            <li><strong>Mid-market chains:</strong> pair EDLP or selective rollbacks with clear shelf-level communication so shoppers can see the savings without doing math.</li>
+            <li><strong>Merchants:</strong> protect traffic-driving staples first, especially meat and categories where shoppers are most sensitive to visible price jumps.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Consumer Behavior</span>
+            <h3><a href="https://www.grocerydive.com/news/may-inflation-highest-three-years/822514/">Consumer pain continues as grocery inflation remains near 3-year high</a></h3>
+            <div class="source">Grocery Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Food-at-home prices rose 2.7% year over year in May, while energy drove more than 60% of the overall inflation spike. Economists warned that supply chain pressure from the Iran war could keep food prices under pressure.</p>
+          <ul class="takeaways">
+            <li><strong>Retail leaders:</strong> update demand forecasts for a shopper who may trade down further even if headline food inflation eases.</li>
+            <li><strong>Pricing teams:</strong> model fuel and energy pass-through by category before approving summer promotions that depend on fragile margin assumptions.</li>
+            <li><strong>Independent grocers:</strong> over-communicate local value, private label, and meal-stretching options to blunt discount-channel switching.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Store Ops</span>
+            <h3><a href="https://www.grocerydive.com/news/schnucks-unveils-freshness-guarantee/822547/">Schnucks unveils freshness guarantee as grocers play up perishables</a></h3>
+            <div class="source">Grocery Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Schnuck Markets introduced a freshness guarantee allowing customers dissatisfied with perishable items to exchange the product or receive a full refund across floral, produce, bakery, deli, meat, seafood, and prepared foods.</p>
+          <ul class="takeaways">
+            <li><strong>Grocery operators:</strong> freshness guarantees can shift the conversation from low price to low risk, especially in perishables where trust drives trips.</li>
+            <li><strong>Store teams:</strong> audit shrink, refund workflows, and associate authority before launching guarantees so the promise does not create checkout friction.</li>
+            <li><strong>Merchants:</strong> use refund data as a quality signal by supplier, store, and daypart rather than treating it only as a customer-service cost.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Grocery/CPG</span>
+            <h3><a href="https://www.fooddive.com/news/glp1-weight-loss-drugs-grocers-efforts-health-wellness/822490/">How grocers are catering to GLP-1 users</a></h3>
+            <div class="source">Food Dive · June 10, 2026</div>
+          </div>
+          <p class="summary">Food Dive reports that weight-loss medications are creating new health and wellness needs, pushing grocers to connect pharmacy, protein-focused private label, and wellness guidance.</p>
+          <ul class="takeaways">
+            <li><strong>Grocers with pharmacies:</strong> link GLP-1 counseling to food journeys such as high-protein, smaller-portion, and nutrient-dense baskets.</li>
+            <li><strong>Private label teams:</strong> treat protein, hydration, digestive health, and convenient small meals as connected innovation lanes.</li>
+            <li><strong>CPG partners:</strong> bring category education and basket-building support, not only new SKUs, if you want shelf priority.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">AI &amp; Store Labor</span>
+            <h3><a href="https://www.modernretail.co/technology/walmart-is-training-store-level-employees-to-use-ai/?utm_campaign=modernretaildis&amp;utm_medium=rss&amp;utm_source=general-rss">Walmart is training store-level employees to use AI</a></h3>
+            <div class="source">Modern Retail · June 11, 2026</div>
+          </div>
+          <p class="summary">Walmart launched an OpenAI associate certification after a Google certificate program earlier this year, positioning AI training as a broad workforce capability rather than a specialist function.</p>
+          <ul class="takeaways">
+            <li><strong>Enterprise retailers:</strong> AI adoption will be limited by role design and training, not just tool access; store leaders need practical use cases.</li>
+            <li><strong>Learning teams:</strong> certify associates on daily workflows such as training plans, task prioritization, customer responses, and local merchandising ideas.</li>
+            <li><strong>Operators:</strong> measure AI pilots against time saved and decision quality at store level, not only corporate productivity.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Retail Media</span>
+            <h3><a href="https://www.marketingdive.com/news/pinterest-adds-amazon-storefront-linking/822639/">Pinterest adds Amazon Storefront linking</a></h3>
+            <div class="source">Marketing Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Eligible Pinterest creators can now add Amazon Storefront affiliate links to Pins, reducing the gap between inspiration, creator endorsement, and Amazon checkout.</p>
+          <ul class="takeaways">
+            <li><strong>DTC brands:</strong> monitor creator-led leakage to marketplaces; shoppers may discover on social but convert where trust and fulfillment are easiest.</li>
+            <li><strong>Retail media teams:</strong> expect more pressure to prove closed-loop attribution as social platforms add shoppable marketplace paths.</li>
+            <li><strong>Merchandisers:</strong> prioritize products with strong visual discovery and creator utility for Pinterest-style affiliate campaigns.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">AI Discovery</span>
+            <h3><a href="https://www.retaildive.com/news/pinterest-signs-four-billion-dollar-ai-deal-aws-visual-search/822374/">Pinterest signs $4B AI deal with AWS</a></h3>
+            <div class="source">Retail Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Pinterest signed the largest deal in its history with AWS, a $4 billion AI agreement aimed at making discovery more personal, visual, and actionable.</p>
+          <ul class="takeaways">
+            <li><strong>Retail marketers:</strong> visual search and AI recommendations are becoming core discovery infrastructure, not experimental media formats.</li>
+            <li><strong>Catalog teams:</strong> improve product imagery, attributes, and taxonomy now; weak data will underperform in AI-led discovery surfaces.</li>
+            <li><strong>Brands:</strong> budget for creative variants that match intent signals, occasions, and style clusters instead of one-size-fits-all campaigns.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">Supply Chain</span>
+            <h3><a href="https://www.supplychaindive.com/news/pepsico-expanding-autonomous-truck-use-in-its-supply-chain/822403/">PepsiCo expanding autonomous truck use in its supply chain</a></h3>
+            <div class="source">Supply Chain Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">PepsiCo expanded its multiyear work with Gatik to use autonomous trucks in parts of its transportation network where capacity is hard to staff.</p>
+          <ul class="takeaways">
+            <li><strong>Large retailers and CPGs:</strong> autonomous middle-mile is moving toward targeted capacity relief, not an all-lane replacement strategy.</li>
+            <li><strong>Supply chain teams:</strong> identify repetitive, short-haul, high-service lanes where driver scarcity creates outsized risk.</li>
+            <li><strong>Risk teams:</strong> update incident, insurance, and contingency playbooks before autonomous pilots become operational dependencies.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">QSR</span>
+            <h3><a href="https://www.restaurantdive.com/news/restaurants-value-experience-add-ons/822028/">Why restaurant value needs to go beyond just price</a></h3>
+            <div class="source">Restaurant Dive · June 11, 2026</div>
+          </div>
+          <p class="summary">Restaurant Dive reports that premium add-ons, larger portions, and improved experiences are helping chains such as Chili's lift sales despite a challenging consumer backdrop.</p>
+          <ul class="takeaways">
+            <li><strong>QSR and casual dining:</strong> value menus alone are not enough; pair price points with abundance, customization, and visible experience upgrades.</li>
+            <li><strong>Menu teams:</strong> build trade-up paths that protect margin while making the guest feel they received more, not less.</li>
+            <li><strong>Operators:</strong> track whether value offers drive repeat visits after the discount period, not just short-term traffic spikes.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="card-head">
+            <span class="badge">QSR Tech</span>
+            <h3><a href="https://www.pymnts.com/news/artificial-intelligence/2026/mcdonalds-fired-ai-now-its-back-with-googl/">McDonald's fired its AI. Now it's back with Google's.</a></h3>
+            <div class="source">PYMNTS · June 12, 2026</div>
+          </div>
+          <p class="summary">PYMNTS reports McDonald's is returning to AI drive-thru ordering with Google's technology after its prior AI effort was shelved. The system is positioned to reduce errors, speed service, and help operators identify bottlenecks.</p>
+          <ul class="takeaways">
+            <li><strong>QSR operators:</strong> failed pilots should sharpen rollout design, not end automation; start with measurable service bottlenecks.</li>
+            <li><strong>Franchise systems:</strong> require bilingual accuracy, repeat-customer recognition guardrails, and clear escalation to crew before scaling voice AI.</li>
+            <li><strong>Tech buyers:</strong> evaluate AI as an operations support layer, not only as a labor-replacement tool.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="trend-watch">
+      <h2 id="trend-watch">Trend Watch: Meta-Trends &amp; Patterns</h2>
+      <ul>
+        <li><strong>Value is structural.</strong> Grocery, restaurant, and CPG stories all point to consumers who are not simply waiting out inflation; they are resetting expectations around fairness, abundance, and proof.</li>
+        <li><strong>AI is becoming operational.</strong> Walmart's associate certifications, Pinterest's AI discovery investment, and McDonald's drive-thru reboot show AI moving into training, conversion, and service throughput.</li>
+        <li><strong>Retail media is converging with commerce infrastructure.</strong> Pinterest's Amazon linking shows creator content, affiliate economics, and marketplace checkout blending into one path.</li>
+        <li><strong>Supply chains are still a margin variable.</strong> Energy-led inflation and autonomous middle-mile pilots both reinforce that transportation capacity, fuel exposure, and staffing risk remain board-level retail issues.</li>
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="actions">
+      <h2 id="actions">Action Checklist</h2>
+      <ul>
+        <li>Audit the top 25 traffic-driving SKUs or menu items and decide where price trust must be protected even if margin is tighter.</li>
+        <li>Pick one front-line AI workflow to train and measure this month, such as task planning, customer response drafting, or drive-thru exception handling.</li>
+        <li>Review marketplace, affiliate, and social commerce leakage so media spend is aligned with where customers actually complete purchases.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Retail Trends Weekly is curated from public retail, grocery, restaurant, marketing, and supply chain sources. Links open to the original publishers.
+    </footer>
+  </main>
+</body>
+</html>
