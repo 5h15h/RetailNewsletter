@@ -1,0 +1,114 @@
+# Generated Retail News Report Source - 2026-06-25
+
+# Retail Trends Weekly - Curated Intelligence From Across the Retail Ecosystem
+
+Issue date: June 25, 2026
+Curated articles: 8
+Core theme: Retailers are moving from channel integration to intent orchestration. AI is reshaping discovery, search, advertising, store associate workflows, and merchandising decisions, while cautious consumers keep rewarding clear value, private brands, and practical deal events.
+
+## Opening Note
+This week's retail news points to a more demanding operating environment: consumers are still spending, but they are spending with sharper filters around value, trust, and convenience. At the same time, AI is becoming less of a lab project and more of a commerce layer across loyalty, search, media, store experience, and supply chain execution.
+
+For retail leaders, the near-term question is not whether to adopt AI or cut prices. It is where AI can improve high-intent customer moments, and where clearer value, better stores, and simpler operating choices can rebuild trust.
+
+## Curated Articles With Summaries and Retailer Takeaways
+
+### How retailers are thinking about omnichannel in the age of AI
+Source: Retail Dive
+Link: https://www.retaildive.com/news/ulta-stitch-fix-tapestry-retail-omnichannel-ai-age/823707/
+Category: AI + Omnichannel
+Summary: Executives from Ulta, Stitch Fix, Tapestry and others said omnichannel now includes agentic AI and AI-assisted discovery, but the winning experience still depends on loyalty, brand consistency, stores, apps, and human context. Ulta cited 47 million loyalty members and said 95% of sales flow through loyalty, while Boot Barn said 30% of orders are picked up in stores and 40% ship from stores.
+Retailer Takeaways:
+- Treat loyalty data as the connective tissue for agentic commerce; the best AI experiences need first-party context, not generic product copy.
+- Audit how your brand appears in AI-driven discovery queries, because AI often recommends solutions before brand names.
+- Use associate language and store questions to train digital assistants so online AI feels like the best in-store concierge, not a detached chatbot.
+
+### Sephora introduces store quiet hours
+Source: Retail Dive
+Link: https://www.retaildive.com/news/sephora-introduces-store-quiet-hours/823757/
+Category: Store Ops + Customer Experience
+Summary: Sephora is rolling out global quiet hours after a 32-store pilot across eight markets. Stores will lower music and adjust screens during specified times; 90% of pilot customers said the program made stores more inclusive.
+Retailer Takeaways:
+- Consider sensory-friendly hours as a low-capex store experience lever, especially in beauty, grocery, apparel, and big-box formats.
+- Measure inclusion initiatives with store-level pilots before scaling; Sephora used customer response before global rollout.
+- Build operational scripts for lighting, audio, screens, and associate behavior so quiet hours are consistent rather than symbolic.
+
+### Walmart gets bullish on advertising business with Vibe.co acquisition
+Source: Retail Dive
+Link: https://www.retaildive.com/news/walmart-vibeco-acquisition-bullish-retail-advertising-business/823672/
+Category: Retail Media
+Summary: Walmart agreed to acquire connected TV advertising platform Vibe.co to extend Walmart Connect's full-funnel capabilities. Walmart's global advertising business grew 50% year over year in Q1, Walmart Connect U.S. grew 31%, and advertising plus membership fees represented about one-third of operating income.
+Retailer Takeaways:
+- Retail media is becoming a profit architecture, not a side channel; CTV, loyalty, and commerce data are converging.
+- Mid-market retailers should define which media surfaces they can credibly own instead of trying to imitate Walmart's scale.
+- Merchandising and media teams need shared incrementality rules so ad growth does not distort the customer experience.
+
+### Albertsons integrates branded product placement into AI-search tool
+Source: Grocery Dive
+Link: https://www.grocerydive.com/news/albertsons-media-collective-criteo-ai-search-brand-ads-ecommerce-omnichannel/823557/
+Category: Grocery + AI Search
+Summary: Albertsons Media Collective added sponsored product placement to its AI-powered conversational search tool through Criteo, letting brands appear in relevant product carousels as shoppers plan meals, search products, and build baskets.
+Retailer Takeaways:
+- Conversational search is becoming paid shelf space; governance is needed so relevance and utility come before ad load.
+- Grocery retailers should map high-intent moments such as meal planning and replenishment before selling sponsored placements.
+- CPG partners will ask for performance proof; define measurement around basket add, substitution, repeat, and category lift.
+
+### How Kroger is leaning on pricing and stores to reset its value proposition
+Source: Grocery Dive
+Link: https://www.grocerydive.com/news/kroger-store-experience-grocery-greg-foran/823460/
+Category: Grocery + Value Strategy
+Summary: Kroger CEO Greg Foran said the grocer needs simpler, more consistent everyday value and a stronger store experience after visiting more than 100 locations. Kroger operates about 2,700 supermarkets, opened 16 stores and closed 50 in its most recent fiscal year, and is working to improve supplier terms and operating efficiency.
+Retailer Takeaways:
+- If shoppers cannot understand your value position, promotions are not helping; simplify the price story before adding more offers.
+- Store operations, supplier negotiations, and digital fulfillment must be connected because Kroger's e-commerce momentum depends partly on store-based fulfillment.
+- Use store visits and frontline diagnostics to separate pricing perception problems from execution problems.
+
+### Clubs and supermarkets score private brand growth
+Source: Grocery Dive / FMI / Circana
+Link: https://www.grocerydive.com/news/clubs-and-supermarkets-score-private-brand-growth/823432/
+Category: Private Brand + Consumer Behavior
+Summary: Club retailers and supermarkets gained dollar and unit share in private brands, while mass, dollar, and drug stores declined. FMI cited Circana data showing private brand dollar sales up 2.8% and units up 0.6%; 43% of shoppers plan to buy private brands more, and 56% say their primary retailer's store brand is important in choosing where to shop.
+Retailer Takeaways:
+- Private brand is now a loyalty and trust lever, not just a cheaper alternative.
+- Invest in packaging, taste, and quality cues in categories where value alone is not the deciding factor.
+- Watch Gen Z and millennial response: store brand importance rises to 60% and 61%, respectively, for those groups.
+
+### Prime Day starts softly as consumers buy gift cards, stock up on essentials, hold out for deeper discounts
+Source: Modern Retail
+Link: https://www.modernretail.co/operations/marketplace-briefing-prime-day-starts-softly-as-consumers-buy-gift-cards-stock-up-on-essentials-hold-out-for-deeper-discounts/
+Category: Ecommerce + Deal Behavior
+Summary: Early Prime Day behavior showed shoppers using the event to replenish essentials and buy discounted gift cards rather than impulse-buy big-ticket goods. Numerator data cited by Modern Retail showed average household spend down 16% early on day one, average order value down 17%, and two-thirds of purchased products under $30, even as Adobe reported a record $8.3 billion in U.S. online sales on day one.
+Retailer Takeaways:
+- Promotional events still work, but consumers are using them to stretch budgets on planned purchases.
+- Put essentials, replenishment, and gift-card economics at the center of summer deal strategy.
+- Separate traffic-driving discounts from margin-dilutive discounts; cautious shoppers are waiting for meaningful deals.
+
+### Shallow restaurant labor pool could drive up summer wages
+Source: Restaurant Dive
+Link: https://www.restaurantdive.com/news/nra-restaurants-summer-hiring-surge-low-labor-supply-wage-growth/823673/
+Category: QSR + Labor
+Summary: The National Restaurant Association warned that seasonal restaurants may face a tougher summer hiring market, with 300,000 fewer young workers in the labor force than in 2025. A tighter labor pool could pressure wages in seasonal markets.
+Retailer Takeaways:
+- QSR and convenience operators should lock staffing plans earlier and pressure-test service models for peak summer demand.
+- Simplify menus, prep routines, and shift roles where labor availability is weakest.
+- Treat scheduling flexibility and training speed as retention levers, not just HR admin.
+
+## Trend Watch: Meta-Trends and Patterns
+- AI is shifting from backend experimentation into the customer journey: search, loyalty, conversational commerce, and product discovery.
+- Retail media is moving closer to commerce intent, especially where first-party data can connect ads to baskets.
+- Value remains the consumer filter, but value now includes trust, clarity, private brand quality, and sensory-friendly experience.
+- Stores are becoming fulfillment hubs, experience stages, and data collection points at the same time.
+- Operators face a margin squeeze from cautious shoppers, labor pressure, and supply chain uncertainty, making simpler execution a competitive advantage.
+
+## One-Page Infosketch Trend Headlines and Actions
+- AI becomes the aisle guide: audit AI discovery prompts and connect loyalty context.
+- Retail media moves into intent moments: keep sponsored search useful, measurable, and basket-relevant.
+- Value gets simpler: reduce promotion confusion and clarify everyday price trust.
+- Private brand earns loyalty: invest in quality cues, packaging, and category-level trust.
+- Stores calm down and work harder: pilot sensory-friendly operations and store-based fulfillment routines.
+- Cautious shoppers plan purchases: design events around essentials, gift cards, and replenishment.
+
+## Action Checklist
+1. Run a Monday-morning audit of your top five customer-intent moments: AI search, app, store associate, loyalty, and checkout.
+2. Pick one value signal to simplify this week: fewer overlapping promos, clearer shelf tags, or a stronger private-brand proof point.
+3. Review your retail media roadmap against customer usefulness before adding new ad inventory.
